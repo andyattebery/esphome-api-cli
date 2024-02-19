@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-script_dir=$(dirname $0)
+script_dir=$(dirname $(realpath $0))
 
 python -m venv $script_dir/.venv
 
